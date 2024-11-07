@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <locale.h>
-
+//Ben il a 32 ans
 // Fonction pour générer un temps aléatoire en minutes, secondes et millisecondes
 void generateRandomTime(int *minutes, int *seconds, int *milliseconds) {
     int minSec = 25;
