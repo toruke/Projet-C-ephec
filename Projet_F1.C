@@ -70,7 +70,8 @@ int main() {
         for (int tour = 0; tour < nombreDeTours; tour++) {
             generateRandomTime(&temps[i][tour][0], &temps[i][tour][1], &temps[i][tour][2]); // minutes, seconds, milliseconds
             printf("│       S%d        │      %02d:%02d:%03d       │\n", tour + 1, temps[i][tour][0], temps[i][tour][1], temps[i][tour][2]);
-
+            if(tour !=nombreDeTours-1){
+            printf("├─────────────────┼──────────────────────┤\n");}
             // Addition des temps des tours
             total_minutes += temps[i][tour][0];
             total_seconds += temps[i][tour][1];
