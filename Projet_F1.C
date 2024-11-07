@@ -58,7 +58,12 @@ int main() {
     */
     for (int i = 0; i < nombreDeVoitures; i++) {
         printf("┌────────────────────────────────────────┐\n");
-        printf("│               Voiture %d               │\n", voiture[i]);
+        if(voiture[i]<10){
+            printf("│               Voiture %d                │\n", voiture[i]);
+        }
+        else{
+            printf("│               Voiture %d               │\n", voiture[i]);
+        }
         printf("├─────────────────┬──────────────────────┤\n");
 
         // Variables pour le total du temps de la voiture
@@ -86,7 +91,12 @@ int main() {
 
         // Affichage du temps total pour chaque voiture
         printf("├─────────────────┴──────────────────────┤\n");
-        printf("│Temps total de la voiture %d : %02d:%02d:%03d│\n", voiture[i], total_minutes, total_seconds, total_milliseconds);
+        if(voiture[i]<10){
+            printf("│Temps total de la voiture %d : %02d:%02d:%03d │\n", voiture[i], total_minutes, total_seconds, total_milliseconds);
+        }
+        else{
+            printf("│Temps total de la voiture %d : %02d:%02d:%03d│\n", voiture[i], total_minutes, total_seconds, total_milliseconds);
+        }
         printf("└────────────────────────────────────────┘\n");   
     }
 
