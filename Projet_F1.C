@@ -50,8 +50,16 @@ int main() {
     int temps[20][10][3]; // Max 20 voitures, 10 tours, chaque tour a minutes, secondes, millisecondes
 
     // Générer et stocker les temps pour chaque voiture et chaque tour
+    /*┌─┬─┐
+      │ │ │
+      ├─┼─┤
+      │ │ │
+      └─┴─┘
+    */
     for (int i = 0; i < nombreDeVoitures; i++) {
-        printf("Voiture %d:\n", voiture[i]);
+        printf("┌────────────────────────────────────────┐\n");
+        printf("│               Voiture %d               │\n", voiture[i]);
+        printf("├─────────────────┬──────────────────────┤\n");
 
         // Variables pour le total du temps de la voiture
         int total_minutes = 0;
@@ -61,7 +69,7 @@ int main() {
         // Génération des temps pour chaque tour
         for (int tour = 0; tour < nombreDeTours; tour++) {
             generateRandomTime(&temps[i][tour][0], &temps[i][tour][1], &temps[i][tour][2]); // minutes, seconds, milliseconds
-            printf("  S%d : %02d:%02d:%03d\n", tour + 1, temps[i][tour][0], temps[i][tour][1], temps[i][tour][2]);
+            printf("│       S%d        │      %02d:%02d:%03d       │\n", tour + 1, temps[i][tour][0], temps[i][tour][1], temps[i][tour][2]);
 
             // Addition des temps des tours
             total_minutes += temps[i][tour][0];
@@ -76,7 +84,9 @@ int main() {
         total_seconds %= 60;                         // Gérer le reste des secondes
 
         // Affichage du temps total pour chaque voiture
-        printf("Temps total de la voiture %d : %02d:%02d:%03d\n\n", voiture[i], total_minutes, total_seconds, total_milliseconds);
+        printf("├─────────────────┴──────────────────────┤\n");
+        printf("│Temps total de la voiture %d : %02d:%02d:%03d│\n", voiture[i], total_minutes, total_seconds, total_milliseconds);
+        printf("└────────────────────────────────────────┘\n");   
     }
 
     return 0;
