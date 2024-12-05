@@ -2,6 +2,6 @@
 
 ## se qu'il manque :
 
-1. tout les voitures tourne d'un coup et pas en continue
+1. il faut que les voitures tourne en continue 
 2. on ne peux pas configurer le nombre de circuit et le nombre de tour
 
