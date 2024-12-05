@@ -1,0 +1,26 @@
+Liste des circuits de F1 2024 et leurs longueurs (en km):
+
+Bahreïn (Sakhir): 5.412 km
+Arabie Saoudite (Jeddah): 6.174 km
+Australie (Melbourne): 5.278 km
+Japon (Suzuka): 5.807 km
+Chine (Shanghai): 5.451 km
+Miami (États-Unis): 5.412 km
+Imola (Italie): 4.909 km
+Monaco (Monte-Carlo): 3.337 km
+Espagne (Barcelone): 4.675 km
+Canada (Montréal): 4.361 km
+Autriche (Red Bull Ring): 4.318 km
+Grande-Bretagne (Silverstone): 5.891 km
+Hongrie (Hungaroring): 4.381 km
+Belgique (Spa-Francorchamps): 7.004 km
+Pays-Bas (Zandvoort): 4.259 km
+Italie (Monza): 5.793 km
+Azerbaïdjan (Bakou): 6.003 km
+Singapour (Marina Bay): 4.94 km
+États-Unis (Austin, COTA): 5.513 km
+Mexique (Mexico City): 4.304 km
+Brésil (São Paulo): 4.309 km
+Las Vegas (États-Unis): 6.12 km
+Qatar (Lusail): 5.419 km
+Abou Dhabi (Yas Marina): 5.281 km
