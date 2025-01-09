@@ -1,3 +1,0 @@
-C:/Users/simon/OneDrive - EPHEC asbl/2eme/Q1/OS/Projet_C/cmake-build-debug/CMakeFiles/Projet_C.dir
-C:/Users/simon/OneDrive - EPHEC asbl/2eme/Q1/OS/Projet_C/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/simon/OneDrive - EPHEC asbl/2eme/Q1/OS/Projet_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
